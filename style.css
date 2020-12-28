@@ -1,0 +1,61 @@
+@import url("fonts.css");
+
+body {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: #000000;
+    background-color:white;
+}
+svg {
+ position: absolute;
+fill:#606060;
+
+}
+.menu {
+    position: absolute;
+    left: 1.86%;
+right: 96.89%;
+top: 0.98%;
+bottom: 98.49%;
+}
+.home {
+    position: absolute;
+    left: 1.8%;
+right: 96.82%;
+top: 3.52%;
+bottom: 95.73%;
+}
+.trending {
+    left: 2%;
+right: 97.05%;
+top: 5.3%;
+bottom: 93.9%;
+}
+.subscribe {
+    left: 1.93%;
+right: 96.92%;
+top: 7.12%;
+bottom: 92.14%;
+}
+.libary {
+    left: 1.8%;
+right: 96.82%;
+top: 9.92%;
+bottom: 89.19%;
+}
+.history {
+    left: 1.73%;
+right: 96.94%;
+top: 11.79%;
+bottom: 87.47%;
+}
+div {
+    width: 50px;
+    height: 50px;
+}
+hr {
+    position: absolute;
+width: 240px;
+height: 1px;
+
+}
