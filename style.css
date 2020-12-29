@@ -7,7 +7,7 @@ body {
 .side_menu {
     background: #FFFFFF;
     width: 240px;
-    height: 200vh;
+    height: 210vh;
 }
 .side_menu a {
     text-decoration: none;
@@ -27,20 +27,19 @@ body {
 .side_menu a:active {
     background: rgba(0, 0, 0, 0.1); 
 }
-
 .side_menu a svg {
     fill: #606060;
 }
-.side_menu a .active svg {
+/* vai vajag šo rindu? jo tad ierāsojas visas svg ikonas
+.side_menu a.active svg {
     fill: #f00;
-}
+}*/
 .side_menu a .text{
     margin-left: 26px;
     top: 27px;
 }
 .side_menu a .icon {
     margin-left: 26px;
-    background-color: lightblue;
     display: inline-block; 
     width: 20px;
     text-align: center;
@@ -53,7 +52,7 @@ hr {
     color: #E5E5E5;
     margin-top: 26px;
 }
-h2 {
+h1 {
     margin-top: 16px;
     margin-left: 24px;
     color: #606060;
@@ -72,7 +71,6 @@ h2 {
 .side_menu a .icon_channel {
     margin-top: 5px;
     margin-left: 26px;
-    background-color: lightblue;
     display: inline-block; 
     width: 20px;
     text-align: center;
@@ -84,4 +82,17 @@ h2 {
     margin-left:  30px;
     fill: #2860CD;
     display: inline-block;
+    vertical-align: middle;  
+}
+.side_menu .privacy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 26px;
+    margin-top: 18px;
+    color: #606060;
+    width: 165px;
+    height: 100px;
 }
