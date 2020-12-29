@@ -1,61 +1,87 @@
 @import url("fonts.css");
 
-body {
-    font-family: Roboto;
-    font-weight: 500;
-    font-style: #000000;
-    background-color:white;
-}
-svg {
- position: absolute;
-fill:#606060;
 
+body {
+    background: #F1F1F1;
 }
-.menu {
-    position: absolute;
-    left: 1.86%;
-right: 96.89%;
-top: 0.98%;
-bottom: 98.49%;
+.side_menu {
+    background: #FFFFFF;
+    width: 240px;
+    height: 200vh;
 }
-.home {
-    position: absolute;
-    left: 1.8%;
-right: 96.82%;
-top: 3.52%;
-bottom: 95.73%;
+.side_menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    font-size: 14px;
+    line-height: 16px
+    padding: 12px 0;
+    margin-top: 24.50px;
 }
-.trending {
-    left: 2%;
-right: 97.05%;
-top: 5.3%;
-bottom: 93.9%;
+.side_menu a:hover {
+    background: rgba(0, 0, 0, 0.05);
 }
-.subscribe {
-    left: 1.93%;
-right: 96.92%;
-top: 7.12%;
-bottom: 92.14%;
+.side_menu a:active {
+    background: rgba(0, 0, 0, 0.1); 
 }
-.libary {
-    left: 1.8%;
-right: 96.82%;
-top: 9.92%;
-bottom: 89.19%;
+
+.side_menu a svg {
+    fill: #606060;
 }
-.history {
-    left: 1.73%;
-right: 96.94%;
-top: 11.79%;
-bottom: 87.47%;
+.side_menu a .active svg {
+    fill: #f00;
 }
-div {
-    width: 50px;
-    height: 50px;
+.side_menu a .text{
+    margin-left: 26px;
+    top: 27px;
+}
+.side_menu a .icon {
+    margin-left: 26px;
+    background-color: lightblue;
+    display: inline-block; 
+    width: 20px;
+    text-align: center;
 }
 hr {
-    position: absolute;
-width: 240px;
-height: 1px;
-
+    width: 240px;
+    height: -4px;
+    left: 0px;
+    top: 200px;
+    color: #E5E5E5;
+    margin-top: 26px;
+}
+h2 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #606060;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    line-height: 16px
+    padding: 12px 0;
+}
+.side_menu a .text_channel {
+    margin-left: 26px;
+    top: 27px;
+}
+.side_menu a .icon_channel {
+    margin-top: 5px;
+    margin-left: 26px;
+    background-color: lightblue;
+    display: inline-block; 
+    width: 20px;
+    text-align: center;
+}
+.side_menu a .icon_channel svg {
+    fill: #0572EF;
+}
+.side_menu a .text_channel svg {
+    margin-left:  30px;
+    fill: #2860CD;
+    display: inline-block;
 }
