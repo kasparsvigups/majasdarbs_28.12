@@ -5,7 +5,7 @@ body {
     background: #F1F1F1;
 }
 .top-menu { 
-    background: lightblue;
+    background: #FFFFFF;
     display: flex;
     justify-content: space-between;
 }
@@ -14,7 +14,6 @@ body {
 }
 .top-menu div {
     display: inline-block;
-    background:lightgreen;
 }
 .top-menu div form a svg {
     display: flex;
@@ -34,6 +33,9 @@ body {
 }
 .top-menu .search form {
     margin-top: 13px;
+    border-bottom-style: inherit;
+    width: 240px;
+    height: 30px;
 }
 .top-menu nav a {
     text-decoration: none;
