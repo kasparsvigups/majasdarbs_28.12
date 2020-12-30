@@ -4,6 +4,58 @@
 body {
     background: #F1F1F1;
 }
+.top-menu { 
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu .menu {
+    text-decoration: none;  
+}
+.top-menu div {
+    display: inline-block;
+    background:lightgreen;
+}
+.top-menu div form a svg {
+    display: flex;
+}
+/*kā uztaisīt apli uzpiežot uz menu pogas*/
+.top-menu .menu:active {
+    background: rgba(0, 0, 0, 0.1); 
+}
+.top-menu .menu svg {
+    margin-left: 24px;
+    margin-top: 22px;
+    fill: #606060;
+}
+.top-menu .logo {
+    margin-left: 24px;
+    margin-top: 40px;
+}
+.top-menu .search form {
+    margin-top: 13px;
+}
+.top-menu nav a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.top-menu nav .notification svg {
+    margin-right: 40px;
+    margin-top: 18px;
+    fill: #606060;
+}
+.top-menu nav .gridd svg {
+    margin-right: 23px;
+    margin-top: 18px;
+    fill: #606060;
+}
+.top-menu nav .camera svg {
+    margin-right: 23px;
+    margin-top: 20px;
+    fill: #606060;
+}
+
 .side_menu {
     background: #FFFFFF;
     width: 240px;
@@ -30,7 +82,8 @@ body {
 .side_menu a svg {
     fill: #606060;
 }
-/* vai vajag šo rindu? jo tad ierāsojas visas svg ikonas
+/* vai vajag šo rindu? jo tad ierāsojas visas svg ikonas 
+oriģinālajam neiekrāsojas.
 .side_menu a.active svg {
     fill: #f00;
 }*/
