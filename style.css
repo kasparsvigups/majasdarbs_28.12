@@ -1,6 +1,5 @@
 @import url("fonts.css");
 
-
 body {
     background: #F1F1F1;
 }
@@ -31,11 +30,16 @@ body {
     margin-left: 24px;
     margin-top: 40px;
 }
-.top-menu .search form {
-    margin-top: 13px;
-    border-bottom-style: inherit;
-    width: 240px;
+.top-menu button {
+    width: 540px;
     height: 30px;
+    margin-top: 13px;
+    display: inline-flex;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;
+}
 }
 .top-menu nav a {
     text-decoration: none;
