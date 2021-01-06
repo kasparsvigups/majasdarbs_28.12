@@ -1,66 +1,100 @@
 @import url("fonts.css");
+/* <-- Body Part--> */
 
 body {
     background: #F1F1F1;
 }
+hr {
+    width: 240px;
+    height: -4px;
+    left: 0px;
+    top: 200px;
+    color: #E5E5E5;
+    margin-top: 26px;
+}
+h1 {
+    margin-top: 16px;
+    margin-left: 24px;
+    color: #606060;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    line-height: 16px
+    padding: 12px 0;
+}
+
+/* <--Top menu Part--> */
+
 .top-menu { 
     background: #FFFFFF;
     display: flex;
     justify-content: space-between;
 }
-.top-menu .menu {
-    text-decoration: none;  
-}
-.top-menu div {
-    display: inline-block;
-}
-.top-menu div form a svg {
-    display: flex;
-}
-/*kā uztaisīt apli uzpiežot uz menu pogas*/
+
+/*kā uztaisīt apli uzpiežot uz menu pogas
 .top-menu .menu:active {
     background: rgba(0, 0, 0, 0.1); 
+    display: inline;
 }
+*/
+
 .top-menu .menu svg {
     margin-left: 24px;
     margin-top: 22px;
     fill: #606060;
+    text-decoration: none;
 }
 .top-menu .logo {
     margin-left: 24px;
     margin-top: 40px;
 }
-.top-menu button {
+.top-menu form {
+    display: inline-flex;
+}
+.top-menu div form input {
     width: 540px;
     height: 30px;
     margin-top: 13px;
-    display: inline-flex;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;    
+}
+.top-menu button {
+    width: 63px;
+    height: 34px;
+    margin-top: 13px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.10);
     border-radius: 1px 0px 0px 1px;
 }
+.top-menu .search_button {
+    fill: #606060;
 }
 .top-menu nav a {
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
+    fill: #606060;
 }
 .top-menu nav .notification svg {
     margin-right: 40px;
-    margin-top: 18px;
-    fill: #606060;
+    margin-top: 18px;  
 }
 .top-menu nav .gridd svg {
     margin-right: 23px;
-    margin-top: 18px;
-    fill: #606060;
+    margin-top: 18px; 
 }
 .top-menu nav .camera svg {
     margin-right: 23px;
-    margin-top: 20px;
-    fill: #606060;
+    margin-top: 20px;  
 }
+
+
+/* <--Side Menu part--> */
 
 .side_menu {
     background: #FFFFFF;
@@ -103,26 +137,7 @@ oriģinālajam neiekrāsojas.
     width: 20px;
     text-align: center;
 }
-hr {
-    width: 240px;
-    height: -4px;
-    left: 0px;
-    top: 200px;
-    color: #E5E5E5;
-    margin-top: 26px;
-}
-h1 {
-    margin-top: 16px;
-    margin-left: 24px;
-    color: #606060;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    display: block;
-    font-size: 14px;
-    line-height: 16px
-    padding: 12px 0;
-}
+
 .side_menu a .text_channel {
     margin-left: 26px;
     top: 27px;
@@ -143,6 +158,9 @@ h1 {
     display: inline-block;
     vertical-align: middle;  
 }
+
+/* <--Footer Part--> */
+
 .side_menu .privacy {
     font-family: Roboto;
     font-style: normal;
